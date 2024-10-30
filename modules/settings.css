@@ -1,0 +1,42 @@
+.kapost-tabbed-settings 
+{ 
+	padding:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border: 1px solid #DFDFDF; 
+	margin-top:0px;
+	display:block;
+	-moz-border-radius:4px 4px 4px 4px; 
+	-webkit-border-radius:4px 4px 4px 4px; 
+	border-radius:4px 4px 4px 4px;
+}
+a.kapost-tab, a.kapost-tab:active, a.kapost-tab:visited
+{
+	text-decoration:none;
+	display:inline-block;
+	margin:0px;
+	margin-left:10px;
+	margin-bottom:-1px;
+	padding:5px;
+	border:1px solid #DFDFDF;
+	-moz-border-radius:4px 4px 0px 0px; 
+	-webkit-border-radius:4px 4px 0px 0px; 
+	border-radius:4px 4px 0px 0px;
+}
+a.kapost-tab.selected, a.kapost-tab:hover
+{
+	text-decoration:none;
+	border-bottom:1px solid #F9F9F9;
+}
+a.kapost-tab.selected
+{
+	font-weight:bold;
+	color:#333333;
+}
+.kapost-column { float:left; width:160px; }
+.kapost-column.wide { width:320px; }
+.kapost-column.header { font-weight:bold; }
+.kapost-column.first,.kapost-column.header.first { clear:left; }
+#attribution-placement { display:none; }
+#button-options { display:none; }
+
